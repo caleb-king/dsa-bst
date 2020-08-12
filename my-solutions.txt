@@ -1,0 +1,22 @@
+constant time - O(1)
+logarithmic time - O(log(n))
+linear time - O(n)
+polynomial time - O(n^k)
+exponential time - O(2^n)
+
+
+4. What does this program do?
+    - This program recursively sums the values for each node of a tree
+    - I confirmed this by running the function on the numerical dataset from problem 1. The result of the program was 37 which I verified is equal to the sum of the numbers 3, 1, 4, 6, 9, 2, 5, and 7.
+    - runtime of O(n)
+5. Height of a BST
+    - linear time - O(n)
+6. Is it a BST?
+    - linear time - O(n)
+7. 3rd largest node
+    - O(log(n)) - depends upon the height of the tree. Worst case would be O(n) if tree completely unbalanced on right side.
+8. Balanced BST
+    - linear time - O(n)
+9. Are they the same BSTs?
+    - O(n^2)
+
